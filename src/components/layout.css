@@ -63,4 +63,33 @@ a {
     transform: translateY(0);
   }
 }
+.Photo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  text-align: center;
+  padding: 100px;
+}
+.Photo img {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+}
+.Photo h1 {
+  font-size: 24px;
+}
+.Photo a {
+  color: black;
+}
 
+@media (max-width: 640px) {
+  .Dashboard {
+    margin: 120px auto;
+  }
+  .Dashboard h1 {
+    font-size: 48px;
+  }
+}

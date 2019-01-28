@@ -7,9 +7,11 @@ import SEO from '../components/seo'
 const SecondPage = () => (
   <Layout>
     <SEO title="Page two" />
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
+    <div className = "Photo">
+      <img src={require("../images/photo.jpg")} width = "300"/>
+      <h1>Hi, I'm Liran, I come from China.</h1>
+      <Link to="/">Go back to the homepage</Link>
+    </div>
   </Layout>
 )
 

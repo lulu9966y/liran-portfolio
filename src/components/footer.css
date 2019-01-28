@@ -19,3 +19,12 @@
     color: #F1E9E6;
     letter-spacing: 1px;
 }
+
+@media (max-width: 640px) {
+    .Footer {
+        height: 50px;
+    }
+    .Authority {
+        top: 5px;
+    }
+}
