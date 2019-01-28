@@ -3,7 +3,8 @@
     bottom: 0;
     left: 120px;
     right: 120px;
-    height: 120px;
+    height: 100px;
+    text-align: center;
 }
 
 .Line {
@@ -12,27 +13,9 @@
     opacity: 0.3;
 }
 
-.SocialGroup {
-    position: absolute;
-    top: 30px;
-    left: 20px;
-    display: grid;
-    grid-template-columns: repeat(3, 3fr);
-    column-gap: 25px;
-}
-
-svg {
-    stroke: #F1E9E6;
-}
-
-svg:hover {
-    stroke:#31223F;
-}
-
 .Authority {
-    position: absolute;
-    top: 30px;
-    right: 0;
+    position:relative;
+    top: 20px;
     color: #F1E9E6;
     letter-spacing: 1px;
 }

@@ -66,19 +66,22 @@
     
 }
 
-.LinkGroup {
+.SocialGroup {
     position: absolute;
-    left: 0;
     top: 50%;
     transform: translateY(-50%);
+    left: 0;
     display: grid;
-    grid-template-columns: repeat(2, 2fr);
-    column-gap: 30px;
-    font-weight: 700;
+    grid-template-columns: repeat(3, 3fr);
+    column-gap: 25px;
 }
 
-.LinkGroup a:hover{
-    color:#31223F;
+svg {
+    stroke: #F1E9E6;
+}
+
+svg:hover {
+    stroke:#31223F;
 }
 
 
