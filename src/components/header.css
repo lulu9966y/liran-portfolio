@@ -60,9 +60,10 @@
 
 .Logo {
     position: absolute;
+    top: 60%;
     left: 50%;
-    transform: translateX(-50%);
-    top: 40px;
+    transform: translate(-50%, -50%);
+    
 }
 
 .LinkGroup {
@@ -72,7 +73,7 @@
     transform: translateY(-50%);
     display: grid;
     grid-template-columns: repeat(2, 2fr);
-    column-gap: 50px;
+    column-gap: 30px;
     font-weight: 700;
 }
 

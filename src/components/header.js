@@ -8,7 +8,7 @@ const Header = (props) => (
       <Link to="/page-2/">LinkedIn</Link>
       <Link to="/page-2/">Resume</Link>
     </div>
-    <Link className = "Logo" to="/page-2/"><img src={require("../images/logo.png")} /></Link>
+    <Link className = "Logo" to="/page-2/"><img src={require("../images/logo.png")} width = "250" /></Link>
     <button>
       <div className="Wrap"></div>
       <div className="Three">
