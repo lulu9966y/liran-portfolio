@@ -1,10 +1,14 @@
-.Header{
+.Header {
     position: fixed;
     top: 0;
     left: 120px;
     right: 120px;
     height: 120px;
     z-index: 100;
+}
+
+.HeaderScrolled {
+    background: #48355B;
 }
 
 .Header button {
