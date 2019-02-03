@@ -82,7 +82,7 @@ class Header extends React.Component {
           </Link>
         </div>
         <Link className="Logo" to="/">
-          <img src={require('../images/logo.png')} width="289" />
+          <img src={require('../images/yin1.gif')} width="289" />
         </Link>
         <button>
           <div className="Wrap" />
