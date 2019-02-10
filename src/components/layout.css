@@ -30,6 +30,16 @@ a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+@keyframes DashboardAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
 .Dashboard h1 {
   margin: 0;
@@ -53,16 +63,6 @@ a {
   border-bottom: 2px solid rgba(241, 233, 230, 0.5);
 }
 
-@keyframes DashboardAnimation {
-  0% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 .Photo {
   position: absolute;
   top: 0;

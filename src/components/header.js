@@ -1,12 +1,14 @@
 import React from 'react'
 import './header.css'
 import { Link } from 'gatsby'
+import Menu from '../components/menu'
 
 class Header extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
       hasScrolled: false,
+      menuClicked: false,
     }
   }
 
@@ -21,6 +23,10 @@ class Header extends React.Component {
     } else {
       this.setState({ hasScrolled: false })
     }
+  }
+
+  clicked = event => {
+    this.setState({ menuClicked: !this.state.menuClicked })
   }
 
   render() {
@@ -84,7 +90,7 @@ class Header extends React.Component {
         <Link className="Logo" to="/">
           <img src={require('../images/yin1.gif')} width="289" />
         </Link>
-        <button>
+        <button onClick={this.clicked.bind(this)}>
           <div className="Wrap" />
           <div className="Three">
             <div className="First" />
@@ -92,6 +98,9 @@ class Header extends React.Component {
             <div className="Third" />
           </div>
         </button>
+        {this.state.menuClicked ? (
+          <Menu closeMenu={this.clicked.bind(this)} />
+        ) : null}
       </div>
     )
   }

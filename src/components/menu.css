@@ -1,0 +1,188 @@
+.Menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.MenuBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #48355b;
+  animation-name: MenuBackgroundAnimation;
+  animation-duration: 1.2s;
+  animation-fill-mode: forwards;
+}
+@keyframes MenuBackgroundAnimation {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+.MenuLine {
+  width: 1px;
+  height: 100%;
+  background-color: #f1e9e6;
+  margin: auto;
+  opacity: 0;
+  animation-name: MenuLineAnimation;
+  animation-duration: 3s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+@keyframes MenuLineAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 0.3;
+    transform: translateY(0%);
+  }
+}
+
+.Two {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 2s cubic-bezier(0.2, 0.8, 0.2, 1);
+  overflow: hidden;
+}
+.Two::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(180deg, #ed5e6a 0%, #5076a6 100%);
+  transform: translateY(100%);
+  transition: 0.5s ease-out;
+}
+.Two:hover::before {
+  transform: translateY(0);
+}
+
+.Left {
+  width: 20px;
+  height: 1px;
+  background-color: #f1e9e6;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+.Right {
+  width: 20px;
+  height: 1px;
+  background-color: #f1e9e6;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.MenuBoard {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  animation-name: MenuBoardAnimation;
+  animation-duration: 1.5s;
+  animation-delay: 0.8s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+  opacity: 0;
+}
+@keyframes MenuBoardAnimation {
+  0% {
+    opacity: 0;
+    transform: translate(-50%,-60%);
+  }
+  100%{
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.MenuItem {
+  -webkit-font-smoothing: antialiased;
+  color: #f1e9e6;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+.MenuItem:hover {
+  animation-name: MenuItemAnimation;
+  animation-duration: 1.2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+  background-image: linear-gradient(#F1E9E6 0, #F1E9E6 50%, #EE5E69 50%, #F1E9E6 100%);
+  background-size: 100% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 1;
+}
+@keyframes MenuItemAnimation {
+  0% {
+    background-position-y: 0%;
+  }
+  100% {
+    background-position-y: 100%;
+  }
+}
+
+.SocialBoard {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  height: 100px;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  justify-items: center;
+  grid-gap: 20px;
+}
+
+.SocialItem {
+  -webkit-font-smoothing: antialiased;
+  color: #f1e9e6;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  animation-name: SocialItemAnimation;
+  animation-duration: 1.5s;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+  opacity: 0;
+}
+@keyframes SocialItemAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100%{
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+.SocialBoard a:hover {
+  color: #ed5e6a;
+}
