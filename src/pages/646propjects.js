@@ -3,13 +3,20 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import staticdata from '../staticdata.json'
 
-const Project646 = (props) => (
-    <Layout>
-        <SEO title="646projects"/>
+class Project646 extends React.Component {
+  constructor(props) {
+    super(props)
+  }
+  render() {
+    return (
+      <Layout>
+        <SEO title="646projects" />
         {staticdata.cells.map(cell => (
-            <div>{cell.title}</div>
+          <div><a href = "https://hw02.netlify.com/">{cell.title}</a></div>
         ))}
-    </Layout>
-)
+      </Layout>
+    )
+  }
+}
 
 export default Project646
