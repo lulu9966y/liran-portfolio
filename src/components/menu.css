@@ -52,7 +52,7 @@
   background-size: cover;
   background-position: right bottom;
   animation-name: MenuBackgroundAnimation;
-  animation-duration: 1.2s;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
   animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
 }
@@ -62,11 +62,11 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: url('../images/menu1.png');
+  /* background: url('../images/menu1.png'); */
   background-size: 100% auto;
   background-position: center top;
   animation-name: MenuBackgroundAnimation;
-  animation-duration: 1.2s;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
   animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
 }
@@ -76,11 +76,11 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: url('../images/menu2.png');
+  /* background: url('../images/menu2.png'); */
   background-size: cover;
   background-position: center;
   animation-name: MenuBackgroundAnimation;
-  animation-duration: 1.2s;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
   animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
 }
@@ -99,7 +99,7 @@
   background-size: cover;
   background-position: right bottom;
   animation-name: MenuBackgroundChangedAnimation;
-  animation-duration: 1.2s;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
   animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
   opacity: 1;
@@ -113,21 +113,21 @@
   }
 }
 .MenuBackgroundChanged3 {
-  background: url('../images/menu1.png');
+  /* background: url('../images/menu1.png'); */
   background-size: 100% auto;
   background-position: center top;
   animation-name: MenuBackgroundChangedAnimation;
-  animation-duration: 1.2s;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
   animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
   opacity: 1;
 }
 .MenuBackgroundChanged5 {
-  background: url('../images/menu2.png');
+  /* background: url('../images/menu2.png'); */
   background-size: cover;
   background-position: center;
   animation-name: MenuBackgroundChangedAnimation;
-  animation-duration: 1.2s;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
   animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
   opacity: 1;
