@@ -269,7 +269,7 @@
   transform: translate(-50%);
   height: 100px;
   display: grid;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(5, auto);
   justify-items: center;
   grid-gap: 20px;
 }

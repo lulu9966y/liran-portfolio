@@ -106,8 +106,11 @@ class Menu extends React.Component {
           <a href="https://github.com/lulu9966y" className="SocialItem">
             GITHUB
           </a>
-          <a href="https://github.com/lulu9966y" className="SocialItem">
+          <a href="https://www.linkedin.com/in/liran-yin-164835144/" className="SocialItem">
             LINKEDIN
+          </a>
+          <a href={require('../pages/liran-resume-en.pdf')} download className="SocialItem">
+            RESUME
           </a>
           <a href="mailto:liran.yin@gmail.com" className="SocialItem">
             LIRAN.YIN@GMAIL.COM
