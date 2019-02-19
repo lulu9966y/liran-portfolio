@@ -7,13 +7,13 @@ class AboutMe extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      changed: false
+      changed: false,
     }
   }
   render() {
     let button = {
-      background: 'transparent'
-    };
+      background: 'transparent',
+    }
     return (
       <Layout>
         <SEO title="aboutme" />
@@ -92,6 +92,12 @@ class AboutMe extends React.Component {
           <div className="rightContainer">
             <div className="headshotContainer">
               <img src={require('../images/photo.jpg')} width="100" />
+            </div>
+            <div className="resumeContainer">
+              <a href={require('../pages/liran-resume-en.pdf')}>
+                <img src={require('../images/smile.png')} width="30" />
+                <p>View My Resume</p>
+              </a>
             </div>
           </div>
         </div>

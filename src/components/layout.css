@@ -172,3 +172,21 @@ svg:hover {
   margin: auto;
   border-radius: 50%;
 }
+
+.resumeContainer a {
+  position: relative;
+  top: -30px;
+  margin: auto;
+  color: #f1e9e6;
+  font-size: 24px;
+  width: 240px;
+  border: 2px solid #f1e9e6;
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-items: center;
+  align-items: center;
+}
+.rightContainer a img {
+  padding: 0 5px;
+}
