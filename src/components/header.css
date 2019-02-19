@@ -98,7 +98,7 @@
   left: 0;
   display: grid;
   grid-template-columns: repeat(3, 3fr);
-  column-gap: 25px;
+  column-gap: 20px;
 }
 
 svg {
