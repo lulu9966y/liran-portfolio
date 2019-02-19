@@ -75,14 +75,12 @@ class AboutMe extends React.Component {
             </svg>
           </a>
         </div>
-        <div className="Header"></div>
-
         <div className="container">
           <div className="leftContainer">
             <div className="name">MY NAME IS</div>
             <div className="liran">LIRAN</div>
             <div className="yin">YIN</div>
-            <p>qqqqqqq</p>
+            <p>I'm a web developer.</p>
           </div>
           <div className="rightContainer">
             <div className="headshotContainer">
