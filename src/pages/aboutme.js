@@ -87,7 +87,9 @@ class AboutMe extends React.Component {
             <div className="name">MY NAME IS</div>
             <div className="liran">LIRAN</div>
             <div className="yin">YIN</div>
-            <p>I'm a web developer.</p>
+            <p>
+              I'm a web designer and developer from China living in Rochester, NY, where I enroll as the first year MS student in Human-Computer Interaction at RIT. <br /> With a background in Architecture, My strength lies in participantory design. <br />I'm currently using React to build websites particularly in media domain.
+            </p>
           </div>
           <div className="rightContainer">
             <div className="headshotContainer">
