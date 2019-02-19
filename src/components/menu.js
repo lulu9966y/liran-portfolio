@@ -91,7 +91,7 @@ class Menu extends React.Component {
             UX Case Studies
           </Link>
           <Link
-            to="/646propjects/"
+            to="/aboutme/"
             className="MenuItem"
             onMouseOver={this.changeBackground1}
             onMouseOut={this.changeBackground2}
