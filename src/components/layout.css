@@ -137,7 +137,7 @@ a {
 
 .SocialGroup1 {
   position: absolute;
-  top: 10px;
+  top: 35px;
   left: 120px;
   display: grid;
   grid-template-columns: repeat(3, 3fr);

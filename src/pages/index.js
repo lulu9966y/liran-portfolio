@@ -22,7 +22,7 @@ class IndexPage extends React.Component {
             web applications with focus on not just{' '}
             <Link to="/646propjects/">what it looks like</Link>, but{' '}
             <Link to="/page-2/">how it works</Link>. If you want to know more{' '}
-            <Link to="/page-2/">about me</Link>, feel free to contact me on{' '}
+            <Link to="/aboutme/">about me</Link>, feel free to contact me on{' '}
             <span>liran.yin@gmail.com</span>.
           </p>
         </div>

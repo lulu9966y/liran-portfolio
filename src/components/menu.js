@@ -37,12 +37,11 @@ class Menu extends React.Component {
   }
 
   render() {
-    let button = {
-    };
-    if(this.state.changed) {
-      button.background = 'transparent';
-    }else {
-      button.transition = '1s';
+    let button = {}
+    if (this.state.changed) {
+      button.background = 'transparent'
+    } else {
+      button.transition = '1s'
     }
     return (
       <div className="Menu">
@@ -60,13 +59,13 @@ class Menu extends React.Component {
               ? 'MenuBackground MenuBackgroundChanged4'
               : this.state.changed == false && this.state.index == '6'
               ? 'MenuBackground MenuBackgroundChanged6'
-              :'MenuBackground'
+              : 'MenuBackground'
           }
         />
         <div className="MenuLine" />
         <div className="Header">
-          <button onClick={this.props.closeMenu} style = {button}>
-            <div className="Wrap" style = {button} />
+          <button onClick={this.props.closeMenu} style={button}>
+            <div className="Wrap" style={button} />
             <div className="Two">
               <div className="Left" />
               <div className="Right" />
@@ -74,6 +73,14 @@ class Menu extends React.Component {
           </button>
         </div>
         <div className="MenuBoard">
+          <Link
+            to="/"
+            className="MenuItem"
+            onMouseOver={this.changeBackground5}
+            onMouseOut={this.changeBackground6}
+          >
+            Home
+          </Link>
           <Link
             to="/646propjects/"
             className="MenuItem"
@@ -106,10 +113,17 @@ class Menu extends React.Component {
           <a href="https://github.com/lulu9966y" className="SocialItem">
             GITHUB
           </a>
-          <a href="https://www.linkedin.com/in/liran-yin-164835144/" className="SocialItem">
+          <a
+            href="https://www.linkedin.com/in/liran-yin-164835144/"
+            className="SocialItem"
+          >
             LINKEDIN
           </a>
-          <a href={require('../pages/liran-resume-en.pdf')} download className="SocialItem">
+          <a
+            href={require('../pages/liran-resume-en.pdf')}
+            download
+            className="SocialItem"
+          >
             RESUME
           </a>
           <a href="mailto:liran.yin@gmail.com" className="SocialItem">

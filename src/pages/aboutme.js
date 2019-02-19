@@ -1,12 +1,19 @@
 import React from 'react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
+import Hamburger from '../components/hamburger'
 
 class AboutMe extends React.Component {
   constructor(props) {
     super(props)
+    this.state = {
+      changed: false
+    }
   }
   render() {
+    let button = {
+      background: 'transparent'
+    };
     return (
       <Layout>
         <SEO title="aboutme" />
@@ -88,6 +95,7 @@ class AboutMe extends React.Component {
             </div>
           </div>
         </div>
+        <Hamburger style={button} />
       </Layout>
     )
   }
