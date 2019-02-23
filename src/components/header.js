@@ -82,7 +82,7 @@ class Header extends React.Component {
             </svg>
           </a>
         </div>
-        <Link className="Logo" to="/">
+        <Link className="Logo" to="/" onClick={() => window.location.refresh()}>
           <img src={require('../images/yin1.gif')} width="289" />
         </Link>
         <Hamburger />

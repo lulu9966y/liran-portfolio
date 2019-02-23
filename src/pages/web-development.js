@@ -2,8 +2,9 @@ import React from 'react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import staticdata from '../staticdata.json'
+import Hamburger from '../components/hamburger'
 
-class Project646 extends React.Component {
+class Web extends React.Component {
   constructor(props) {
     super(props)
   }
@@ -12,11 +13,14 @@ class Project646 extends React.Component {
       <Layout>
         <SEO title="646projects" />
         {staticdata.cells.map(cell => (
-          <div><a href = "https://hw02.netlify.com/">{cell.title}</a></div>
+          <div>
+            <a href="https://hw02.netlify.com/">{cell.title}</a>
+          </div>
         ))}
+        <Hamburger />
       </Layout>
     )
   }
 }
 
-export default Project646
+export default Web

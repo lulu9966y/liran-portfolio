@@ -75,6 +75,7 @@ class Menu extends React.Component {
         <div className="MenuBoard">
           <Link
             to="/"
+            onClick={() => window.location.refresh()}
             className="MenuItem"
             onMouseOver={this.changeBackground5}
             onMouseOut={this.changeBackground6}
@@ -82,7 +83,8 @@ class Menu extends React.Component {
             Home
           </Link>
           <Link
-            to="/646propjects/"
+            to="/web-development/"
+            onClick={() => window.location.refresh()}
             className="MenuItem"
             onMouseOver={this.changeBackground5}
             onMouseOut={this.changeBackground6}
@@ -90,7 +92,8 @@ class Menu extends React.Component {
             Web Development
           </Link>
           <Link
-            to="/646propjects/"
+            to="/web-development/"
+            onClick={() => window.location.refresh()}
             className="MenuItem"
             onMouseOver={this.changeBackground3}
             onMouseOut={this.changeBackground4}
@@ -99,6 +102,7 @@ class Menu extends React.Component {
           </Link>
           <Link
             to="/aboutme/"
+            onClick={() => window.location.refresh()}
             className="MenuItem"
             onMouseOver={this.changeBackground1}
             onMouseOut={this.changeBackground2}
