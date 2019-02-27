@@ -12,11 +12,10 @@ class Web extends React.Component {
     return (
       <Layout>
         <SEO title="646projects" />
-        {staticdata.cells.map(cell => (
-          <div>
-            <a href="https://hw02.netlify.com/">{cell.title}</a>
-          </div>
-        ))}
+        <a href="https://dreamy-ardinghelli-0fec9d.netlify.com/">
+          RIT-MAPBOX GL API
+        </a><br />
+        <a href="https://hw02.netlify.com/">ROCHESTER-EVENT API</a>
         <Hamburger />
       </Layout>
     )
