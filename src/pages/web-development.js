@@ -16,7 +16,7 @@ class Web extends React.Component {
           RIT-MAPBOX GL API
         </a><br />
         <a href="https://hw02.netlify.com/">ROCHESTER-EVENT API</a>
-        <br /><a href="https://quirky-ramanujan-0cf3eb.netlify.com/">FINDING-PRITZKER PROTOTYPE</a>
+        <br /><a href="https://finding-pritzker.netlify.com/">FINDING-PRITZKER PROTOTYPE</a>
         <Hamburger />
       </Layout>
     )
