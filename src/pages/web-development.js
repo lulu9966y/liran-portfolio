@@ -25,6 +25,16 @@ class Web extends React.Component {
   }
 
   render() {
+    let header = {
+      position: 'fixed',
+      top: 0,
+      left: 0,
+      right: 0,
+      height: '100px',
+      zIndex: 1000,
+      background: ' #48355b',
+      boxShadow: '0px 3px 12px 0px #2c203797',
+    }
     let logo = {
       // border: "1px solid green",
       left: '0',
@@ -55,7 +65,7 @@ class Web extends React.Component {
         <SEO title="web" />
         <div className="Content">
           <div>
-            <div className="Header">
+            <div className="Header" style={header}>
               <Link
                 className="Logo"
                 style={logo}
@@ -78,7 +88,7 @@ class Web extends React.Component {
           </div>
           <div className="ContentContainer">
             <div className="Piece" style={img1}>
-              <a href="https://finding-pritzker.netlify.com/" target="_blank" >
+              <a href="https://finding-pritzker.netlify.com/" target="_blank">
                 <div className="Fade">
                   <h2>FINDING PRITZKER</h2>
                   <h3>Architecture・Map・Mapbox-GL-JS・GeoJSON </h3>
@@ -87,7 +97,7 @@ class Web extends React.Component {
               </a>
             </div>
             <div className="Piece" style={img2}>
-              <a href="https://ittf.netlify.com/" target="_blank" >
+              <a href="https://ittf.netlify.com/" target="_blank">
                 <div className="Fade">
                   <h2>ITTF OFFICIAL</h2>
                   <h3>Media・Table Tennis・ReactJS・Navigation </h3>
