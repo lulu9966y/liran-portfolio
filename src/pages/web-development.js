@@ -55,13 +55,7 @@ class Web extends React.Component {
         <SEO title="web" />
         <div className="Content">
           <div>
-            <div
-              className={
-                this.state.hasScrolled
-                  ? 'Header HeaderScrolled'
-                  : 'Header HeaderScrolled'
-              }
-            >
+            <div className="Header">
               <Link
                 className="Logo"
                 style={logo}
@@ -84,7 +78,7 @@ class Web extends React.Component {
           </div>
           <div className="ContentContainer">
             <div className="Piece" style={img1}>
-              <a href="https://finding-pritzker.netlify.com/">
+              <a href="https://finding-pritzker.netlify.com/" target="_blank" >
                 <div className="Fade">
                   <h2>FINDING PRITZKER</h2>
                   <h3>Architecture・Map・Mapbox-GL-JS・GeoJSON </h3>
@@ -93,7 +87,7 @@ class Web extends React.Component {
               </a>
             </div>
             <div className="Piece" style={img2}>
-              <a href="https://ittf.netlify.com/">
+              <a href="https://ittf.netlify.com/" target="_blank" >
                 <div className="Fade">
                   <h2>ITTF OFFICIAL</h2>
                   <h3>Media・Table Tennis・ReactJS・Navigation </h3>
@@ -102,7 +96,7 @@ class Web extends React.Component {
               </a>
             </div>
             <div className="Piece" style={img4}>
-              <a href="https://www.gochengdu.cn/">
+              <a href="https://www.gochengdu.cn/" target="_blank">
                 <div className="Fade">
                   <h2>GOCHENGDU.CN</h2>
                   <h3>Media・City Guide・Web Design Intern </h3>
@@ -111,7 +105,7 @@ class Web extends React.Component {
               </a>
             </div>
             <div className="Piece" style={img3}>
-              <a href="https://ravenanous.netlify.com/">
+              <a href="https://ravenanous.netlify.com/" target="_blank">
                 <div className="Fade">
                   <h2>RAVENOUS</h2>
                   <h3>Reviewing・APIs・ReactJS・Responsive </h3>
