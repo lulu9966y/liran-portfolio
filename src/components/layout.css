@@ -29,6 +29,7 @@ a {
   animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
   background: linear-gradient(135deg, #ee5e69 -50%, #f1e9e6 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 @keyframes DashboardAnimation {
@@ -42,7 +43,7 @@ a {
   }
 }
 
-.Dashboard h1 {
+.Dashboard span {
   margin: 0;
   color: #f1e9e6;
   font-family: 'Raleway', sans-serif;
@@ -64,74 +65,80 @@ a {
   border-bottom: 2px solid rgba(241, 233, 230, 0.5);
 }
 
-.Dashboard span:hover {
-  background: rgba(238, 94, 105, 0.3);
-}
-
 @media (max-width: 640px) {
   .Dashboard {
     margin: 120px auto;
   }
-  .Dashboard h1 {
+  .Dashboard span {
     font-size: 48px;
   }
 }
 
+/* ABOUT ME */
+
+.AboutMe {
+  background-color: #f1e9e6;
+  position: relative;
+}
+
 .videoContainer {
   /* border: 1px solid green; */
-  /* position: absolute;
-  top:0; */
-  margin: auto;
+  position: relative;
   width: 100%;
   max-height: 500px;
   overflow: hidden;
 }
 .backgroundVideo {
-  margin-top: -8%;
+  margin-top: -10%;
 }
 
 .container {
   /* border: 1px solid green; */
+  position: relative;
   width: 100%;
   display: grid;
   grid-template-columns: auto 340px;
-  margin-bottom: 0;
+  bottom: 0;
+}
+.leftContainer {
+  /* border: 1px solid green; */
+  position: relative;
+  width: 100%;
 }
 
-.leftContainer {
-  padding: 0;
-  background: #f1e9e6;
+.rightContainer {
+  /* border: 1px solid red; */
+  background-color: #48355b;
 }
 .name {
   position: relative;
-  top: -200px;
+  margin-top: -200px;
   margin-left: 120px;
   color: #f1e9e6;
   font-weight: 700;
   font-size: 24px;
   line-height: 1.2;
-  letter-spacing: -2px;
+  letter-spacing: -1.2px;
 }
 .liran {
   position: relative;
-  top: -230px;
+  margin-top: 20px;
   margin-left: 120px;
   color: #48355b;
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 144px;
-  line-height: 1.2;
+  line-height: 0.8;
   letter-spacing: -2px;
 }
 .yin {
   position: relative;
-  top: -290px;
   margin-left: 120px;
   color: #48355b;
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 144px;
-  line-height: 1.2;
+  line-height: 0.8;
   letter-spacing: -2px;
 }
 
@@ -175,30 +182,90 @@ svg:hover {
 
 .resumeContainer a {
   position: relative;
-  top: -30px;
+  top: -20px;
   margin: auto;
   color: #f1e9e6;
-  font-size: 24px;
-  width: 240px;
-  border: 2px solid #f1e9e6;
-  border-radius: 15px;
+  font-size: 20px;
+  width: 200px;
+  border: 2px solid #f1e9e67e;
+  border-radius: 10px;
   display: grid;
   grid-template-columns: repeat(2, auto);
   justify-items: center;
   align-items: center;
 }
 .rightContainer a img {
+  /* border: 1px solid green; */
   padding-left: 5px;
-  padding-right: 5px;
+  padding-right: 0;
 }
 .rightContainer a p {
-  line-height: 1; /*1.2-1.5 is readable for body text*/
+  /* border: 1px solid green; */
+  line-height: 0; /*1.2-1.5 is readable for body text*/
 }
 
 .leftContainer p {
   width: 80%;
-  margin: auto;
+  margin: 50px auto;
   position: relative;
-  top: -250px;
   letter-spacing: 0.5px;
+}
+
+strong a {
+  -webkit-text-fill-color: black;
+}
+
+@media (max-width: 640px) {
+  .videoContainer {
+    position: relative;
+    height: auto;
+  }
+  .SocialGroup1 {
+    display: none;
+  }
+  .rightContainer {
+    display: none;
+  }
+  .container {
+    grid-template-columns: auto;
+  }
+  .leftContainer p {
+    width: 80%;
+    margin: 20px auto;
+    position: relative;
+    letter-spacing: 0.5px;
+  }
+
+  .name {
+    margin-top: -80px;
+    margin-left: 20px;
+    color: #f1e9e6;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.2;
+    letter-spacing: -1.2px;
+  }
+  .liran {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #48355b;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 0.8;
+    letter-spacing: -2px;
+  }
+  .yin {
+    position: relative;
+    margin-left: 20px;
+    color: #48355b;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 0.8;
+    letter-spacing: -2px;
+  }
+  
+  
 }

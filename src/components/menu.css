@@ -301,3 +301,46 @@
 .SocialBoard a:hover {
   color: #ed5e6a;
 }
+
+@media (max-width: 640px) {
+  .SocialGroup {
+    display: none;
+  }
+  .Logo {
+    display: none;
+  }
+  .MenuItem {
+    font-size: 36px;
+  }
+  .MenuBoard {
+    top: 48%;
+    grid-gap: 25px;
+  }
+  .MenuBoard a {
+    line-height: 1.2;
+  }
+  .SocialBoard {
+    grid-template-columns: repeat(5, auto);
+  }
+  .In,
+  .Gi,
+  .Li,
+  .Em {
+    -webkit-text-fill-color: transparent;
+  }
+
+  .Re {
+    position: absolute;
+    font-weight: bold;
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  .Re:hover {
+    border-color: #ed5e6a;
+  }
+
+  .MenuBackgroundChanged1 {
+    background-position: center bottom;
+  }
+}

@@ -22,9 +22,6 @@
 
 @media (max-width: 640px) {
     .Footer {
-        height: 50px;
-    }
-    .Authority {
-        top: 5px;
+        display: none;
     }
 }

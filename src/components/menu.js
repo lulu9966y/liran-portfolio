@@ -111,26 +111,26 @@ class Menu extends React.Component {
           </Link>
         </div>
         <div className="SocialBoard">
-          <a href="https://www.instagram.com/lulunam/" className="SocialItem">
+          <a href="https://www.instagram.com/lulunam/" className="SocialItem In">
             INSTAGRAM
           </a>
-          <a href="https://github.com/lulu9966y" className="SocialItem">
+          <a href="https://github.com/lulu9966y" className="SocialItem Gi">
             GITHUB
           </a>
           <a
             href="https://www.linkedin.com/in/liran-yin-164835144/"
-            className="SocialItem"
+            className="SocialItem Li"
           >
             LINKEDIN
           </a>
           <a
             href={require('../pages/liran-resume-en.pdf')}
             download
-            className="SocialItem"
+            className="SocialItem Re"
           >
             RESUME
           </a>
-          <a href="mailto:liran.yin@gmail.com" className="SocialItem">
+          <a href="mailto:liran.yin@gmail.com" className="SocialItem Em">
             LIRAN.YIN@GMAIL.COM
           </a>
         </div>

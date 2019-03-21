@@ -15,15 +15,17 @@ class IndexPage extends React.Component {
         <SEO title="Home" keywords={[`liran`, `yin`, `portfolio`]} />
         <Header />
         <div className="Dashboard">
-          <h1>Hi. I’m Liran. I’m a web developer. </h1>
           <p>
+            <span>Hi. I’m Liran. I’m a web developer.</span>
+            <br />
+            <br />
             I’m currently based in Rochester enrolling in Human-Computer
             Interaction program at RIT. I’m passinate about designing and coding
             web applications with focus on not just{' '}
             <Link to="/web-development/">what it looks like</Link>, but{' '}
-            <Link to="/web-development/">how it works</Link>. If you want to know more{' '}
-            <Link to="/aboutme/">about me</Link>, feel free to contact me on{' '}
-            <span>liran.yin@gmail.com</span>.
+            <Link to="/web-development/">how it works</Link>. If you want to
+            know more <Link to="/aboutme/">about me</Link>, feel free to contact
+            me on liran.yin@gmail.com.
           </p>
         </div>
         <Footer />

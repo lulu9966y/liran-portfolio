@@ -15,7 +15,7 @@ class AboutMe extends React.Component {
       background: 'transparent',
     }
     return (
-      <Layout>
+      <div className="AboutMe">
         <SEO title="aboutme" />
         <div className="videoContainer">
           <video
@@ -88,7 +88,21 @@ class AboutMe extends React.Component {
             <div className="liran">LIRAN</div>
             <div className="yin">YIN</div>
             <p>
-              I'm a web designer and developer from China living in Rochester, NY, where I enroll as the first year MS student in Human-Computer Interaction at RIT. <br /> With a background in Architecture, My strength lies in participantory design. <br />I'm currently using React to build websites particularly in media domain.
+              I'm a web designer and developer from China living in Rochester,
+              NY, where I enroll as the first year MS student in Human-Computer
+              Interaction at RIT. Currently I'm using{' '}
+              <strong>
+                <a href="https://reactjs.org/">ReactJS</a>
+              </strong>{' '}
+              and <strong>PHP</strong> to build static and dynamic websites,
+              particularly with huge enthusiasm for <strong>Media</strong>{' '}
+              industry.
+              <br /><br /> With a background in Architecture, My strength lies in
+              balancing art and feasibility through iteration. I also love
+              shooting and traveling besides my expertise.
+              <br /><br />
+              I aspired to be a better coordinator between design and code to
+              make more beautiful ideas executed!
             </p>
           </div>
           <div className="rightContainer">
@@ -104,7 +118,7 @@ class AboutMe extends React.Component {
           </div>
         </div>
         <Hamburger style={button} />
-      </Layout>
+      </div>
     )
   }
 }
