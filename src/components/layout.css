@@ -16,6 +16,12 @@ a {
   text-decoration: none;
 }
 
+button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
 .Dashboard {
   margin: 240px auto;
   max-width: 860px;
@@ -266,6 +272,96 @@ strong a {
     line-height: 0.8;
     letter-spacing: -2px;
   }
+}
+
+.Content {
+  /* border: 1px solid green; */
+  background-color: white;
+  position: relative;
+  margin-top: 100px;
+}
+
+.ContentContainer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 4fr);
+  grid-template-rows: repeat(2, 2fr);
+}
+
+.Piece {
+  /* border: 1px solid green; */
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
+  transition: visibility 2s ease-in;
+}
+
+.Piece:hover .Fade {
+  visibility: visible;
+}
+
+.Fade {
+  background-color: #31223fd9;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  visibility: hidden;
+}
+
+.Fade h2 {
+  /* border: 1px solid green; */
+  position: relative;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-text-fill-color: white;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 1;
+}
+.Fade h3 {
+  position: relative;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-text-fill-color: rgba(255, 255, 255, 0.66);
+  font-weight: lighter;
+  font-size: 14px;
+  line-height: 1;
+}
+.Fade button {
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-text-fill-color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 4px 5px;
+  cursor: pointer;
   
-  
+}
+
+.Fade button:hover {
+  border: 2px solid #ed5e6a;
+  -webkit-text-fill-color: #ed5e6a;
+}
+@media (max-width: 768px) {
+  .ContentContainer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .ContentContainer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
