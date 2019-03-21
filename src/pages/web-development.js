@@ -1,7 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import staticdata from '../staticdata.json'
 import Hamburger from '../components/hamburger'
 
 class Web extends React.Component {
@@ -11,7 +10,7 @@ class Web extends React.Component {
   render() {
     return (
       <Layout>
-        <SEO title="646projects" />
+        <SEO title="web" />
         <a href="https://dreamy-ardinghelli-0fec9d.netlify.com/">
           RIT-MAPBOX GL API
         </a><br />

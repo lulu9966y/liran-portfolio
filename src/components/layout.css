@@ -237,9 +237,9 @@ strong a {
   }
 
   .name {
-    margin-top: -80px;
+    margin-top: 10px;
     margin-left: 20px;
-    color: #f1e9e6;
+    color: #777777;
     font-weight: 700;
     font-size: 12px;
     line-height: 1.2;
