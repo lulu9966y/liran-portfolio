@@ -16,7 +16,7 @@ class IndexPage extends React.Component {
         <Header />
         <div className="Dashboard">
           <p>
-            <span>Hi. I’m Liran. I’m a web developer.</span>
+            <span>Hi. I’m Liran. I’m a web designer & developer.</span>
             <br />
             <br />
             I’m currently based in Rochester enrolling in Human-Computer

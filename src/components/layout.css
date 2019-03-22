@@ -24,7 +24,7 @@ button {
 
 .Dashboard {
   margin: 240px auto;
-  max-width: 860px;
+  max-width: 1080px;
   padding: 0 50px;
   text-align: center;
   opacity: 0;
@@ -54,7 +54,7 @@ button {
   color: #f1e9e6;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
-  font-size: 52px;
+  font-size: 48px;
   line-height: 1.2;
   letter-spacing: 0.5px;
 }
