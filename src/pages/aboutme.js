@@ -101,7 +101,7 @@ class AboutMe extends React.Component {
               balancing art and feasibility through iteration. I also love
               shooting and traveling besides my expertise.
               <br /><br />
-              I aspired to be a better coordinator between design and code to
+              I aspired to be a better coordinator between design and code, to
               make more beautiful ideas executed!
             </p>
           </div>
@@ -114,6 +114,11 @@ class AboutMe extends React.Component {
                 <img src={require('../images/smile.png')} width="30" />
                 <p>View My Resume</p>
               </a>
+              <div className="additional">
+              <p>New York - USA<br />
+              (+1) 585-967-8856<br />
+              liran.yin@gmail.com</p>
+              </div>
             </div>
           </div>
         </div>

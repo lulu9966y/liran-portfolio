@@ -274,9 +274,11 @@ strong a {
   }
 }
 
+/* web development */
+
 .Content {
   /* border: 1px solid green; */
-  background-color: white;
+  background-color: #f1e9e6;
   position: relative;
   margin-top: 100px;
 }
@@ -294,6 +296,7 @@ strong a {
   width: 100%;
   padding-top: 100%;
   transition: visibility 2s ease-in;
+  background-size: cover;
 }
 
 .Piece:hover .Fade {
@@ -367,4 +370,11 @@ strong a {
 
 .Content .Header {
   box-shadow: 0px 3px 12px 0px #2c203797;
+}
+
+.additional p {
+  padding-top: 50px;
+  -webkit-text-fill-color: white;
+  text-align: center;
+  line-height: 1.6;
 }
