@@ -29,7 +29,7 @@ class Header extends React.Component {
       <div
         className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}
       >
-        <div className="SocialGroup">
+        {/* <div className="SocialGroup">
           <a href="https://www.instagram.com/lulunam/">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -81,9 +81,9 @@ class Header extends React.Component {
               <polyline points="22,6 12,13 2,6" />
             </svg>
           </a>
-        </div>
+        </div> */}
         <Link className="Logo" to="/" onClick={() => window.location.refresh()}>
-          <img src={require('../images/yin1.gif')} width="289" />
+          {/* <img src={require('../images/yin1.gif')} width="289" /> */}
         </Link>
         <Hamburger />
       </div>

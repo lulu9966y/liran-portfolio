@@ -231,7 +231,7 @@
   /* border: 1px solid green; */
   -webkit-font-smoothing: antialiased;
   color: #f1e9e6;
-  font-family: 'Raleway', sans-serif;
+  font-family: sans-serif;
   font-weight: 700;
   font-size: 42px;
   line-height: 1.5;
@@ -242,7 +242,7 @@
   animation-duration: 1.2s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-out;
-  background-image: linear-gradient(
+  background: linear-gradient(
     #f1e9e6 0,
     #f1e9e6 50%,
     #ee5e69 50%,
@@ -261,7 +261,6 @@
     background-position-y: 100%;
   }
 }
-
 .SocialBoard {
   position: absolute;
   bottom: 0;
@@ -273,7 +272,6 @@
   justify-items: center;
   grid-gap: 20px;
 }
-
 .SocialItem {
   -webkit-font-smoothing: antialiased;
   color: #f1e9e6;
@@ -297,11 +295,9 @@
     transform: translate(0);
   }
 }
-
 .SocialBoard a:hover {
   color: #ed5e6a;
 }
-
 @media (max-width: 640px) {
   .SocialGroup {
     display: none;
@@ -328,7 +324,6 @@
   .Em {
     -webkit-text-fill-color: transparent;
   }
-
   .Re {
     position: absolute;
     font-weight: bold;
@@ -339,7 +334,6 @@
   .Re:hover {
     border-color: #ed5e6a;
   }
-
   .MenuBackgroundChanged1 {
     background-position: center bottom;
   }
