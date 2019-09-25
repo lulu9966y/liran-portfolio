@@ -88,7 +88,7 @@ button {
 
 .intro-container p {
   margin: 0;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   color: #f1e9e6;
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
@@ -171,7 +171,7 @@ button {
     padding: 30px;
     top: 50%;
   }
-  .intro-container h1 {
+  .intro-container .Hi {
     font-size: 6vh;
   }
   .intro-container p {
