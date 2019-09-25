@@ -69,7 +69,7 @@ button {
   padding: 0 120px;
   position: relative;
   left: 50%;
-  top: 40%;
+  top: 45%;
   transform: translate(-50%, -50%);
   background: linear-gradient(135deg, #ee5e69 -50%, #f1e9e6 100%);
   -webkit-background-clip: text;

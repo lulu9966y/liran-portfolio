@@ -21,6 +21,7 @@ class Home extends React.Component {
                 Hi, I'm Liran. I'm a web designer & developer.
               </span>
               <br />
+              <br />
               I'm currently studying Human-Computer Interaction at Rochester
               Institute of Technology. My passion is to design and code{' '}
               <div className="band-container">
