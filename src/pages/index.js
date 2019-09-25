@@ -16,7 +16,7 @@ class Home extends React.Component {
         <Header />
         <main className="introduction">
           <main className="intro-container">
-            <h1>Hi, I'm Liran. I'm a web designer & developer.</h1>
+            <p className="Hi">Hi, I'm Liran. I'm a web designer & developer.</p>
             <p>
               I'm currently studying Human-Computer Interaction at Rochester
               Institute of Technology. My passion is to design and code{' '}
