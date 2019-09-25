@@ -17,9 +17,9 @@ class Home extends React.Component {
         <main className="introduction">
           <main className="intro-container">
             <p>
-              <p className="Hi">
+              <span className="Hi">
                 Hi, I'm Liran. I'm a web designer & developer.
-              </p>
+              </span>
               <br />
               I'm currently studying Human-Computer Interaction at Rochester
               Institute of Technology. My passion is to design and code{' '}
