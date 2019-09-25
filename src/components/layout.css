@@ -153,40 +153,6 @@ button {
   /* display: none; */
 }
 
-@media (max-width: 1024px) {
-  .intro-container {
-    padding: 0 60px;
-    top: 45%;
-  }
-  .title {
-    visibility: hidden;
-  }
-  .social {
-    visibility: hidden;
-  }
-}
-
-@media (max-width: 512px) {
-  .intro-container {
-    padding: 30px;
-    top: 50%;
-  }
-  .intro-container .Hi {
-    font-size: 6vh;
-  }
-  .intro-container p {
-    margin-top: 30px;
-    font-size: 16px;
-    font-weight: 700;
-  }
-  .title {
-    visibility: hidden;
-  }
-  .social {
-    visibility: hidden;
-  }
-}
-
 .title {
   list-style-type: none;
   padding: 0;
@@ -229,6 +195,66 @@ button {
   letter-spacing: 1px;
   font-size: 14px;
   font-weight: 100;
+}
+
+.shortLine {
+  /* border: 1px solid green; */
+  width: 60px;
+  height: 5.24vw;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  transition: 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.shortLine:hover {
+  height: 3.8vw;
+}
+
+.shortLine span {
+  width: 1px;
+  height: 100%;
+  background: linear-gradient(#ee5e69 0, #f1e9e6 100%);
+  position: absolute;
+  left: 50%;
+}
+
+@media (max-width: 1024px) {
+  .intro-container {
+    padding: 0 60px;
+    top: 45%;
+  }
+  .title {
+    /* visibility: hidden; */
+    padding-left: 30px;
+  }
+  .social {
+    /* visibility: hidden; */
+    padding-right: 40px;
+  }
+}
+
+@media (max-width: 512px) {
+  .intro-container {
+    padding: 30px;
+    top: 50%;
+  }
+  .intro-container .Hi {
+    font-size: 6vh;
+  }
+  .intro-container p {
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .title {
+    visibility: hidden;
+  }
+  .social {
+    visibility: hidden;
+  }
 }
 
 /* ABOUT ME */

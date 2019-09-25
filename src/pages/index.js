@@ -121,6 +121,7 @@ class Home extends React.Component {
             <p>Copyright&copy; 2019 LiranYin</p>
           </li>
         </ul>
+        <div className="shortLine" ><span></span></div>
       </Layout>
     )
   }
