@@ -11,6 +11,7 @@
   animation-delay: 3s;
   animation-fill-mode: forwards;
   animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+  animation-iteration-count: 1;
 }
 
 @keyframes LoaderAnimation {
