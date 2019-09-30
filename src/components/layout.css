@@ -394,6 +394,10 @@ svg:hover {
   stroke: #31223f;
 }
 
+.linkedin:hover {
+  fill: #31223f;
+}
+
 .headshotContainer {
   position: relative;
   margin: auto;
