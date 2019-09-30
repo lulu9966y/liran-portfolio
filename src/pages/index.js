@@ -4,6 +4,7 @@ import SEO from '../components/seo'
 import Layout from '../components/layout'
 import Header from '../components/header'
 import Resume from './liran-resume-en.pdf'
+import Loader from '../components/Loader.js'
 
 class Home extends React.Component {
   constructor(props) {
@@ -13,6 +14,7 @@ class Home extends React.Component {
     return (
       <Layout>
         <SEO title="Home" keywords={[`liran`, `yin`, `portfolio`]} />
+        <Loader />
         <Header />
         <main className="introduction">
           <main className="intro-container">
@@ -121,7 +123,9 @@ class Home extends React.Component {
             <p>Copyright&copy; 2019 LiranYin</p>
           </li>
         </ul>
-        <div className="shortLine" ><span></span></div>
+        <div className="shortLine">
+          <span />
+        </div>
       </Layout>
     )
   }
